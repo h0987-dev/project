@@ -1,0 +1,9 @@
+$ git branch -a -vv
+* main                     8c9e1a4 [origin/main] Add project documentation and simple interest calculator
+  bug-fix-typo              4f6b7d2 [origin/bug-fix-typo] Fix typo in project documentation
+  remotes/origin/HEAD       -> origin/main
+  remotes/origin/bug-fix-typo 4f6b7d2 Fix typo in project documentation
+  remotes/origin/main       8c9e1a4 Add project documentation and simple interest calculator
+
+$ git status --short --branch
+## main...origin/main

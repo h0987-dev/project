@@ -1,0 +1,22 @@
+$ curl -L \
+  -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1
+{
+  "number": 1,
+  "state": "open",
+  "title": "Fix typo in project documentation",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/1",
+  "head": {
+    "ref": "bug-fix-typo",
+    "repo": {
+      "full_name": "h0987-dev/project",
+      "html_url": "https://github.com/h0987-dev/project"
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}

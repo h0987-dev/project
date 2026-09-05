@@ -1,0 +1,15 @@
+$ curl -L \
+  -H "Accept: application/vnd.github+json" \
+  https://api.github.com/repos/h0987-dev/project
+{
+  "id": 123456789,
+  "name": "project",
+  "full_name": "h0987-dev/project",
+  "private": false,
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  },
+  "html_url": "https://github.com/h0987-dev/project"
+}
